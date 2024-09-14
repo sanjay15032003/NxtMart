@@ -1,0 +1,46 @@
+.bgcolor {
+  background-color: #088c03;
+  color: #ffffff;
+  border-width: 0px;
+
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.notupplybgcolor {
+  background-color: #ffffff;
+  border: 1px solid #088c03;
+
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .bgcolor {
+    font-size: 15px;
+    width: 150px;
+  }
+  .notupplybgcolor {
+    font-size: 15px;
+    width: 150px;
+  }
+}
+.each-cate {
+  margin-top: 0px;
+}
